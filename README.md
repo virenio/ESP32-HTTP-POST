@@ -7,14 +7,18 @@ Note:
 4)	PHP Script , JSON and JavaScript are used in the examples.
 
 **Index.php**
+
   Load in public.html or first acces folder of your web server
   
 **dbSql**
+
   Create a data table
   
 **dataPost.php**
+
   File accessed by data sent from ESP32
   
 **dataAccess.php**
+
   File to make database access called from index.php and dataPost.php
   
