@@ -8,4 +8,10 @@ Note:
 
 **Index.php**
   Load in public.html or first acces folder of you web server
-
+**dbSql**
+  Create a data table
+**dataPost**
+  File accessed by data sent from ESP32
+**dataAccess**
+  File to make database access called from index.php and dataPost.php
+  
