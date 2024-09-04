@@ -7,7 +7,7 @@ Note:
 4)	PHP Script , JSON and JavaScript are used in the examples.
 
 **Index.php**
-  Load in public.html or first acces folder of you web server
+  Load in public.html or first acces folder of your web server
   
 **dbSql**
   Create a data table
