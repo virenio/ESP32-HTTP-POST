@@ -12,9 +12,9 @@ Note:
 **dbSql**
   Create a data table
   
-**dataPost**
+**dataPost.php**
   File accessed by data sent from ESP32
   
-**dataAccess**
+**dataAccess.php**
   File to make database access called from index.php and dataPost.php
   
