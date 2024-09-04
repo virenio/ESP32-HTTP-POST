@@ -3,8 +3,8 @@
 <?php
   include_once('dataAccess.php');
  
-   $temp = $humi =   "";
-  $lim = 10;
+   $val1 = $val2 =   "";
+ 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
       $val1 = test_input($_POST["val1"]);
