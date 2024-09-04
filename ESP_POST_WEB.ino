@@ -4,22 +4,15 @@ Simple Framework to test data sent from ESP32 to Cloud Web  page.
 Led is introduced for debugging purpose
 
  **************************************************************/
-
 // Import required libraries
 
 #include <WiFi.h>
 #include <HTTPClient.h>
- 
-
 
 //************************************************
 
 #define WiFi_timeout 10000  // 10sec Wifi connection timeout
 //*****************************************
-
- 
-
-//********************************************************
 
 float val1 = 11.22;  // random values for test purpose
 float val2 = 33.44;  // random values for test purpose
@@ -33,11 +26,8 @@ const char* serverName = "http://xxx.xxx.xxx.xxx/dataPost.php";
 
 //************************************************************
 
- 
-
 WiFiClient client;
 HTTPClient http;
-
 
 const char* ssid  = "xxxxxxxx";  // Your network SSID
 const char* password  = "xxxx";  // Your network password
@@ -64,10 +54,8 @@ Serial.println(WiFi.localIP());
 Serial.println("Title: ESP > POST > WEB ");
  
 WiFi.mode(WIFI_STA);   
-
  
  // server Connecting
-
  //Check WiFi connection status
     if(WiFi.status()== WL_CONNECTED){
       WiFiClient client;
@@ -78,7 +66,8 @@ WiFi.mode(WIFI_STA);
       // Specify content-type header
       http.addHeader("Content-Type", "application/x-www-form-urlencoded");
 
-  //     String httpRequestData = "&temp=31.31&humi=88.88";
+  //     String httpRequestData = "&temp=31.31&humi=88.88"; Sample formats 
+  //     Will be explained in future Post
 
 String httpRequestData =      
                         "&val1=" + String(val1) +
