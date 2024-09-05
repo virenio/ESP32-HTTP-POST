@@ -1,6 +1,8 @@
 # ESP32-HTTP-POST
 This code will allow for ESP32 sending  data to a  website
+The code with small modification can also be implemented on Microntrols with WIFI connections.
 Note:
+
 1)	XAMPP based APACHE and MYSQL server used for localhost access.
 2)	<myWebSite.com ( generic name ) > Cloud server website   on some hosting service of your choice.
 3)	ESP32 / ESP8266 programmed with Arduino IDE
