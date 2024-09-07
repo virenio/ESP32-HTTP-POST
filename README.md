@@ -12,6 +12,8 @@ Note:
 **Index.php**
 
   Load in public.html or first acces folder of your web server
+
+  Access with http://localhost/index.html 
   
 **dbSql**
 
