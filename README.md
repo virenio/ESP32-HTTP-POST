@@ -1,5 +1,5 @@
 # ESP32-HTTP-POST
-This code will allow for ESP32 sending  data to a  website
+This <Easy to implement > code will allow for ESP32 sending  data to a  website
 
 The code with small modification can also be implemented on Microntrollers with WIFI connections.
 Note:
